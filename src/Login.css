@@ -1,0 +1,113 @@
+/* Center the login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+/* Login Box */
+.login-box {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+
+/* Header */
+.login-box h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Form Layout */
+.login-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+.login-box label {
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
+}
+
+/* Input Fields */
+.login-box input {
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    width: 100%;
+    background-color: #f8f9fa;
+    transition: border 0.3s ease-in-out;
+}
+
+.login-box input:focus {
+    border: 1px solid #007bff;
+    background-color: white;
+}
+
+/* Login Button */
+.login-box button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    transition: background 0.3s ease-in-out;
+}
+
+.login-box button:hover {
+    background-color: #0056b3;
+}
+
+/* Sign-up Redirect */
+.login-box p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: black;
+}
+
+.login-box a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-box a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 450px) {
+    .login-box {
+        width: 90%;
+        padding: 1.5rem;
+    }
+}
+.signup-link {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .signup-link:hover {
+    text-decoration: underline;
+  }
+  
